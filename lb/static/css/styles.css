@@ -1,0 +1,747 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1440px;
+	 height: 3600px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Rectangle1 
+{ 
+	 left: -1px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 1442px;
+	 height: 190px;
+	 z-index:1;
+} 
+
+ #Rectangle4copy 
+{ 
+	 left: 134px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 1172px;
+	 height: 190px;
+	 z-index:2;
+} 
+
+ #logo 
+{ 
+	 left: 165px; 
+	 top: 30px; 
+	 position: absolute; 
+	 width: 123px;
+	 height: 127px;
+	 z-index:3;
+} 
+
+ #Rectangle3 
+{ 
+	 left: 1229px; 
+	 top: 84px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 5px;
+	 z-index:4;
+} 
+
+ #Rectangle3copy 
+{ 
+	 left: 1229px; 
+	 top: 91px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 5px;
+	 z-index:5;
+} 
+
+ #Rectangle3copy2 
+{ 
+	 left: 1229px; 
+	 top: 98px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 5px;
+	 z-index:6;
+} 
+
+ #BookNow 
+{ 
+	 left: 1092px; 
+	 top: 85px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 15px;
+	 z-index:7;
+} 
+
+ #Rectangle2 
+{ 
+	 left: 18px; 
+	 top: 186px; 
+	 position: absolute; 
+	 width: 1403px;
+	 height: 683px;
+	 z-index:8;
+} 
+
+ #Layer2 
+{ 
+	 left: 16px; 
+	 top: 19px; 
+	 position: absolute; 
+	 width: 1407px;
+	 height: 937px;
+	 z-index:9;
+} 
+
+ #WorldHeritage 
+{ 
+	 left: 585px; 
+	 top: 468px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 33px;
+	 z-index:10;
+} 
+
+ #HomeofMitrePeakFiord 
+{ 
+	 left: 594px; 
+	 top: 531px; 
+	 position: absolute; 
+	 width: 251px;
+	 height: 57px;
+	 z-index:11;
+} 
+
+ #VectorSmartObject 
+{ 
+	 left: 90px; 
+	 top: 799px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 19px;
+	 z-index:12;
+} 
+
+ #VectorSmartObjectcop 
+{ 
+	 left: 150px; 
+	 top: 799px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 19px;
+	 z-index:13;
+} 
+
+ #VectorSmartObject_0 
+{ 
+	 left: 714px; 
+	 top: 808px; 
+	 position: absolute; 
+	 width: 12px;
+	 height: 19px;
+	 z-index:14;
+} 
+
+ #Scroll 
+{ 
+	 left: 704px; 
+	 top: 792px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 8px;
+	 z-index:15;
+} 
+
+ #Rectangle4 
+{ 
+	 left: 134px; 
+	 top: 866px; 
+	 position: absolute; 
+	 width: 1172px;
+	 height: 502px;
+	 z-index:16;
+} 
+
+ #HotellerApartments 
+{ 
+	 left: 255px; 
+	 top: 977px; 
+	 position: absolute; 
+	 width: 200px;
+	 height: 81px;
+	 z-index:17;
+} 
+
+ #SetinaWorldHeritageA 
+{ 
+	 left: 325px; 
+	 top: 1098px; 
+	 position: absolute; 
+	 width: 352px;
+	 height: 106px;
+	 z-index:18;
+} 
+
+ #Rectangle5 
+{ 
+	 left: 286px; 
+	 top: 1096px; 
+	 position: absolute; 
+	 width: 7px;
+	 height: 110px;
+	 z-index:19;
+} 
+
+ #ReadMore 
+{ 
+	 left: 325px; 
+	 top: 1244px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 14px;
+	 z-index:20;
+} 
+
+ #Rectangle6 
+{ 
+	 left: 787px; 
+	 top: 966px; 
+	 position: absolute; 
+	 width: 399px;
+	 height: 482px;
+	 z-index:21;
+} 
+
+ #Layer3 
+{ 
+	 left: 740px; 
+	 top: 958px; 
+	 position: absolute; 
+	 width: 495px;
+	 height: 495px;
+	 z-index:22;
+} 
+
+ #Accommodation 
+{ 
+	 left: 195px; 
+	 top: 1550px; 
+	 position: absolute; 
+	 width: 273px;
+	 height: 33px;
+	 z-index:23;
+} 
+
+ #Rectangle5copy 
+{ 
+	 left: 228px; 
+	 top: 1632px; 
+	 position: absolute; 
+	 width: 7px;
+	 height: 289px;
+	 z-index:24;
+} 
+
+ #DeluxeRoom 
+{ 
+	 left: 268px; 
+	 top: 1637px; 
+	 position: absolute; 
+	 width: 116px;
+	 height: 19px;
+	 z-index:25;
+} 
+
+ #Rectangle7 
+{ 
+	 left: 266px; 
+	 top: 1678px; 
+	 position: absolute; 
+	 width: 343px;
+	 height: 243px;
+	 z-index:26;
+} 
+
+ #Layer4 
+{ 
+	 left: 249px; 
+	 top: 1671px; 
+	 position: absolute; 
+	 width: 387px;
+	 height: 258px;
+	 z-index:27;
+} 
+
+ #SuperiorRoom 
+{ 
+	 left: 637px; 
+	 top: 1637px; 
+	 position: absolute; 
+	 width: 134px;
+	 height: 23px;
+	 z-index:28;
+} 
+
+ #Rectangle7_0 
+{ 
+	 left: 636px; 
+	 top: 1678px; 
+	 position: absolute; 
+	 width: 343px;
+	 height: 243px;
+	 z-index:29;
+} 
+
+ #Layer5 
+{ 
+	 left: 618px; 
+	 top: 1676px; 
+	 position: absolute; 
+	 width: 375px;
+	 height: 250px;
+	 z-index:30;
+} 
+
+ #LuxurySuiteRoom 
+{ 
+	 left: 1008px; 
+	 top: 1637px; 
+	 position: absolute; 
+	 width: 168px;
+	 height: 22px;
+	 z-index:31;
+} 
+
+ #Rectangle7_1 
+{ 
+	 left: 1006px; 
+	 top: 1678px; 
+	 position: absolute; 
+	 width: 343px;
+	 height: 243px;
+	 z-index:32;
+} 
+
+ #Layer6 
+{ 
+	 left: 988px; 
+	 top: 1676px; 
+	 position: absolute; 
+	 width: 374px;
+	 height: 249px;
+	 z-index:33;
+} 
+
+ #SignatureRoom 
+{ 
+	 left: 1377px; 
+	 top: 1637px; 
+	 position: absolute; 
+	 width: 144px;
+	 height: 23px;
+	 z-index:34;
+} 
+
+ #Rectangle7_2 
+{ 
+	 left: 1376px; 
+	 top: 1678px; 
+	 position: absolute; 
+	 width: 343px;
+	 height: 243px;
+	 z-index:35;
+} 
+
+ #Layer7 
+{ 
+	 left: 1334px; 
+	 top: 1677px; 
+	 position: absolute; 
+	 width: 372px;
+	 height: 248px;
+	 z-index:36;
+} 
+
+ #Rectangle8 
+{ 
+	 left: 1263px; 
+	 top: 1948px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 43px;
+	 z-index:37;
+} 
+
+ #VectorSmartObjectcop_0 
+{ 
+	 left: 1280px; 
+	 top: 1961px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 19px;
+	 z-index:38;
+} 
+
+ #Rectangle8_0 
+{ 
+	 left: 1203px; 
+	 top: 1948px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 43px;
+	 z-index:39;
+} 
+
+ #VectorSmartObjectcop_1 
+{ 
+	 left: 1220px; 
+	 top: 1960px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 19px;
+	 z-index:40;
+} 
+
+ #ViewMore 
+{ 
+	 left: 268px; 
+	 top: 1963px; 
+	 position: absolute; 
+	 width: 74px;
+	 height: 14px;
+	 z-index:41;
+} 
+
+ #Rectangle9 
+{ 
+	 left: 18px; 
+	 top: 2088px; 
+	 position: absolute; 
+	 width: 1403px;
+	 height: 620px;
+	 z-index:42;
+} 
+
+ #Layer9 
+{ 
+	 left: 8px; 
+	 top: 2040px; 
+	 position: absolute; 
+	 width: 1423px;
+	 height: 946px;
+	 z-index:43;
+} 
+
+ #Rectangle10 
+{ 
+	 left: 944px; 
+	 top: 2188px; 
+	 position: absolute; 
+	 width: 362px;
+	 height: 420px;
+	 z-index:44;
+} 
+
+ #BookYourStay 
+{ 
+	 left: 976px; 
+	 top: 2223px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 22px;
+	 z-index:45;
+} 
+
+ #CheckIn 
+{ 
+	 left: 974px; 
+	 top: 2272px; 
+	 position: absolute; 
+	 width: 49px;
+	 height: 9px;
+	 z-index:46;
+} 
+
+ #Rectangle11 
+{ 
+	 left: 973px; 
+	 top: 2287px; 
+	 position: absolute; 
+	 width: 303px;
+	 height: 43px;
+	 z-index:47;
+} 
+
+ #VectorSmartObjectcop_2 
+{ 
+	 left: 1248px; 
+	 top: 2302px; 
+	 position: absolute; 
+	 width: 14px;
+	 height: 14px;
+	 z-index:48;
+} 
+
+ #CheckOut 
+{ 
+	 left: 974px; 
+	 top: 2349px; 
+	 position: absolute; 
+	 width: 60px;
+	 height: 9px;
+	 z-index:49;
+} 
+
+ #Rectangle11_0 
+{ 
+	 left: 973px; 
+	 top: 2364px; 
+	 position: absolute; 
+	 width: 303px;
+	 height: 43px;
+	 z-index:50;
+} 
+
+ #VectorSmartObject_1 
+{ 
+	 left: 1248px; 
+	 top: 2379px; 
+	 position: absolute; 
+	 width: 14px;
+	 height: 14px;
+	 z-index:51;
+} 
+
+ #RoomsAdultChild 
+{ 
+	 left: 974px; 
+	 top: 2426px; 
+	 position: absolute; 
+	 width: 109px;
+	 height: 9px;
+	 z-index:52;
+} 
+
+ #Rectangle11_1 
+{ 
+	 left: 973px; 
+	 top: 2441px; 
+	 position: absolute; 
+	 width: 303px;
+	 height: 43px;
+	 z-index:53;
+} 
+
+ #1Room2Adult0Children 
+{ 
+	 left: 985px; 
+	 top: 2457px; 
+	 position: absolute; 
+	 width: 183px;
+	 height: 12px;
+	 z-index:54;
+} 
+
+ #VectorSmartObject_2 
+{ 
+	 left: 1248px; 
+	 top: 2456px; 
+	 position: absolute; 
+	 width: 14px;
+	 height: 14px;
+	 z-index:55;
+} 
+
+ #FlexibleDates 
+{ 
+	 left: 1005px; 
+	 top: 2504px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 11px;
+	 z-index:56;
+} 
+
+ #Rectangle12 
+{ 
+	 left: 976px; 
+	 top: 2501px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 17px;
+	 z-index:57;
+} 
+
+ #Rectangle11copy 
+{ 
+	 left: 973px; 
+	 top: 2535px; 
+	 position: absolute; 
+	 width: 303px;
+	 height: 43px;
+	 z-index:58;
+} 
+
+ #BookNow_0 
+{ 
+	 left: 1089px; 
+	 top: 2551px; 
+	 position: absolute; 
+	 width: 71px;
+	 height: 11px;
+	 z-index:59;
+} 
+
+ #Rectangle13 
+{ 
+	 left: 134px; 
+	 top: 2705px; 
+	 position: absolute; 
+	 width: 1172px;
+	 height: 379px;
+	 z-index:60;
+} 
+
+ #logocopy 
+{ 
+	 left: 207px; 
+	 top: 2777px; 
+	 position: absolute; 
+	 width: 123px;
+	 height: 127px;
+	 z-index:61;
+} 
+
+ #logocopy2 
+{ 
+	 left: 217px; 
+	 top: 2787px; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 108px;
+	 z-index:62;
+} 
+
+ #OurAddress 
+{ 
+	 left: 790px; 
+	 top: 2812px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 14px;
+	 z-index:63;
+} 
+
+ #472TeAnauMilfordHigh 
+{ 
+	 left: 785px; 
+	 top: 2861px; 
+	 position: absolute; 
+	 width: 226px;
+	 height: 35px;
+	 z-index:64;
+} 
+
+ #472TeAnauMilfordHigh_0 
+{ 
+	 left: 790px; 
+	 top: 2861px; 
+	 position: absolute; 
+	 width: 216px;
+	 height: 35px;
+	 z-index:65;
+} 
+
+ #PostalPOBox196TeAnau 
+{ 
+	 left: 791px; 
+	 top: 2921px; 
+	 position: absolute; 
+	 width: 165px;
+	 height: 11px;
+	 z-index:66;
+} 
+
+ #Phone6412345678 
+{ 
+	 left: 791px; 
+	 top: 2957px; 
+	 position: absolute; 
+	 width: 131px;
+	 height: 9px;
+	 z-index:67;
+} 
+
+ #Emailinfodemolinkcon 
+{ 
+	 left: 791px; 
+	 top: 2991px; 
+	 position: absolute; 
+	 width: 159px;
+	 height: 10px;
+	 z-index:68;
+} 
+
+ #layer_69 
+{ 
+	 left: 217px; 
+	 top: 2947px; 
+	 position: absolute; 
+	 width: 11px;
+	 height: 20px;
+	 z-index:69;
+} 
+
+ #layer_70 
+{ 
+	 left: 258px; 
+	 top: 2950px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 16px;
+	 z-index:70;
+} 
+
+ #layer_71 
+{ 
+	 left: 305px; 
+	 top: 2949px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 18px;
+	 z-index:71;
+} 
+
+ #layer_72 
+{ 
+	 left: 352px; 
+	 top: 2950px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 16px;
+	 z-index:72;
+} 
+
+ #2018StaahHotelSoftwa 
+{ 
+	 left: 215px; 
+	 top: 2990px; 
+	 position: absolute; 
+	 width: 168px;
+	 height: 11px;
+	 z-index:73;
+} 
