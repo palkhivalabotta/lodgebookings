@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <title>HotelBooking</title>
+
+</head>
+
+
+<body>
+
+    <table align="center" border="2">
+        <tr>
+            <th width="120"><a href="/openuserHomePage/?type=home">Home</a></th>
+            <th width="120"><a href="/openServicesPage/?type=h_services">Services</a></th>
+            <th width="120"><a href="/openContactUsPage/?type=h_contact">Contact Us</a></th>
+            <th width="120"><a href="/Cancelbooking/?type=u_cancel">CANCEL</a> </th>
+        </tr>
+    </table>
+
+    {% if type == "u-cancel" %}
+            <form action="/usercancellation/?type=h_user" method="post">
+                     {% csrf_token %}
+            <table align="center" border="0">
+            <tr><th height="50" width="200"> Login Page </th></tr>
+            <tr><th height="50" width="200"> <input type="text" placeholder="Username" required name="name"> </th></tr>
+            <tr><th height="50" width="200"> <input type="text" placeholder="contactno" required name="cno"> </th></tr>
+            <tr><th height="50" width="200"> <input type="text" placeholder="gmail" required name="email"> </th></tr>
+            <tr><th height="50" width="200"> <input type="password" placeholder="Password" required name="pass"> </th></tr>
+            <td><th><input type="Submit" value="Submit">
+             <input type="reset" value="Reset"></th>
+              </td>
+            </table>
+
+    {% endif %}
+
+</body>

@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import register
 from .models import feedback
+from .models import booking_room
 
 #=====================HOME PAGE======================================
 def openhomepage(request):
@@ -22,6 +23,9 @@ def Register(request):
 def contact(request):
     type = request.GET.get("type")
     return render(request, "home.html")
+def cancelbooking(request):
+    type = request.GET.get("type")
+    return render(request,"home.html",{"type":type})
 #=============================USER REGISTER PAGE===================================================
 def insertdetails(request):
     #type =request.GET.get("type")
@@ -38,18 +42,37 @@ def insertdetails(request):
 
 #==============================USER LOGIN=========================================================
 def loginform(request):
-    un = request.POST.get['d_uname']
-    pw = request.POST.get['d_pass']
+    un = request.POST.get('d_uname')
+    pw = request.POST.get('d_pass')
     dbuser = register.objects.filter(email_id=un,password=pw)
-    #print(dbuser)
     if not dbuser:
         return render(request,'home.html',{"type":'h_user',"message":'invalid'})
     else:
-        return render(request,'home.html',{"type":'home'})
+        return render(request,'userhome.html',{"type":'userhome'})
+#==================================USER BOOKING==================================================
+
+
+#==================================USER CANCEL BOOKING============================================
+def usercancellation(request):
+    user_name = models.CharField(max_length=100)
+    room_number = models.ForeignKey(booking_room, on_delete=models.CASCADE)
+    email_id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #===============================CONTACT US=========================================================
-
-
 def feedback(request):
     u_Name = request.POST['u_name']
     u_email = request.POST['u_email']
@@ -59,6 +82,6 @@ def feedback(request):
 
     fr = feedback(name=u_Name,email=u_email,msg=u_msg)
     fr.save()
-    return render(request,"home.html",{"type":'home',"message":'thankyou '})
+    return render(request,"home.html",{"message":'thankyou '})
 
 
